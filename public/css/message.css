@@ -1,0 +1,30 @@
+.message-container {
+    width: 300px;
+    padding: 1px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    position:fixed;
+    bottom:10%;
+    right:1%;
+}
+
+.error {
+    color: #dc3545;
+    background-color: #f8d7da;
+    border: 1px solid #dc3545;
+}
+
+.success {
+    color: #28a745;
+    background-color: #d4edda;
+    border: 1px solid #28a745;
+}
+
+.hide{
+    color:red;
+    cursor:pointer;
+    margin-left: 3%;
+}
